@@ -10,6 +10,26 @@ Features: Pregnancies, Glucose, Blood Pressure, Skin Thickness, Insulin, BMI, Di
 
 Target: Outcome (0 = Non-diabetic, 1 = Diabetic)
 
+Data Preprocessing:
+Features include: Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, and Age.
+
+Applied train-test split (75% train, 25% test)
+
+Used StandardScaler to normalize the data.
+
+ EDA Highlights:
+Pairplot visualized variable distributions and relationships.
+
+Correlation Matrix:
+
+Most correlated feature with diabetes (Outcome) is Glucose (0.47).
+
+Other positively correlated features: BMI (0.29), Age (0.24), Pregnancies (0.22)
+
+
+
 #Clone the repository:
 git clone https://github.com/Ajay-Kumar-Prasad/Diabetes_Prediction_SVC.git
 cd Diabetes_Prediction_SVC
+
+pip install -r requirements.txt
